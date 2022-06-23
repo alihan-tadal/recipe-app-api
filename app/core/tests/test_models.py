@@ -6,6 +6,7 @@ from django.contrib.auth import get_user_model
 from core import models
 from decimal import Decimal
 
+
 class ModelTests(TestCase):
     """Test models."""
 
