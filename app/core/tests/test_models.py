@@ -8,7 +8,6 @@ from core import models
 from decimal import Decimal
 
 
-
 def create_user(email='user@example.com', password='bank2424'):
     """Create and return user."""
     return get_user_model().objects.create_user(email, password)
